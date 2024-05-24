@@ -15,11 +15,11 @@ jobs:
 
     steps:
       #download repo
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
 
       #setup Java
       - name: set up JDK 17
-        uses: actions/setup-java@4
+        uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
